@@ -29,11 +29,11 @@
 #pragma config PPS1WAY = ON      // PPSLOCK bit One-Way Set Enable bit
 #pragma config STVREN = ON       // Stack Full/Underflow Reset Enable bit
 #pragma config LVP = OFF         // Low Voltage Programming Enable bit
-#pragma config XINST = ON        // Extended Instruction Set Enable bit
+#pragma config XINST = OFF       // Extended Instruction Set Enable bit
 
 // CONFIG5
 #pragma config WDTCPS = WDTCPS_10  // WDT Period selection bits
-#pragma config WDTE = WDTCPS_10    // WDT operating mode
+#pragma config WDTE = ON           // WDT operating mode
 
 // CONFIG6
 #pragma config WDTCWS = WDTCWS_6  // WDT Window Select bits
