@@ -19,6 +19,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>drv/mcal/config_bits.c</itemPath>
+      <itemPath>main.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
