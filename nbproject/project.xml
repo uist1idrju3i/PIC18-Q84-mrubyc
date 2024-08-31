@@ -9,9 +9,9 @@
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>drv/mcal</sourceRootElem>
                 <sourceRootElem>lib</sourceRootElem>
                 <sourceRootElem>app</sourceRootElem>
+                <sourceRootElem>drv</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

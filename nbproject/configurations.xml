@@ -4,8 +4,12 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>lib/function.h</itemPath>
-      <itemPath>app/initialize.h</itemPath>
+      <logicalFolder name="app" displayName="app" projectFiles="true">
+        <itemPath>app/initialize.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="lib" displayName="lib" projectFiles="true">
+        <itemPath>lib/function.h</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -19,15 +23,23 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>drv/mcal/config_bits.c</itemPath>
+      <logicalFolder name="app" displayName="app" projectFiles="true">
+        <itemPath>app/initialize.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="drv" displayName="drv" projectFiles="true">
+        <logicalFolder name="mcal" displayName="mcal" projectFiles="true">
+          <itemPath>drv/mcal/config_bits.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="lib" displayName="lib" projectFiles="true">
+      </logicalFolder>
       <itemPath>main.c</itemPath>
-      <itemPath>app/initialize.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>drv/mcal</Elem>
     <Elem>lib</Elem>
     <Elem>app</Elem>
+    <Elem>drv</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
