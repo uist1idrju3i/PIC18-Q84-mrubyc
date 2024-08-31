@@ -8,6 +8,9 @@
         <itemPath>app/initialize.h</itemPath>
       </logicalFolder>
       <logicalFolder name="lib" displayName="lib" projectFiles="true">
+        <logicalFolder name="mrubyc" displayName="mrubyc" projectFiles="true">
+          <itemPath>lib/mrubyc/hal.h</itemPath>
+        </logicalFolder>
         <itemPath>lib/function.h</itemPath>
       </logicalFolder>
     </logicalFolder>
