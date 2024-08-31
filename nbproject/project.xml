@@ -10,6 +10,7 @@
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>drv/mcal</sourceRootElem>
+                <sourceRootElem>lib</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
