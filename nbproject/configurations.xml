@@ -29,6 +29,7 @@
       <logicalFolder name="drv" displayName="drv" projectFiles="true">
         <logicalFolder name="mcal" displayName="mcal" projectFiles="true">
           <itemPath>drv/mcal/config_bits.c</itemPath>
+          <itemPath>drv/mcal/id_locations.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="lib" displayName="lib" projectFiles="true">
